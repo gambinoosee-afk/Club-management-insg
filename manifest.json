@@ -1,0 +1,13 @@
+{
+  "name": "CLUB MANAGEMENT | INSG",
+  "short_name": "Club INSG",
+  "description": "Le CLUB MANAGEMENT de l'INSG : leadership, projets étudiants et développement des compétences.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f7f6",
+  "theme_color": "#173b2b",
+  "lang": "fr",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
