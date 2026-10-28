@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CLUB MANAGEMENT | INSG</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f7f6;
+      color: #172b3a;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #ffffff;
+      padding: 20px 8%;
+      border-bottom: 3px solid #d5ad38;
+    }
+
+    .brand {
+      font-size: 1.4rem;
+      font-weight: bold;
+      color: #173b2b;
+    }
+
+    .brand span {
+      color: #c5a02d;
+    }
+
+    nav {
+      margin-top: 15px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+    }
+
+    nav a {
+      color: #173b2b;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      padding: 75px 8%;
+      background: linear-gradient(135deg, #153d2b, #174b68);
+      color: white;
+    }
+
+    .hero .label {
+      color: #f0cf67;
+      font-weight: bold;
+      letter-spacing: 2px;
+      font-size: 0.8rem;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 5vw, 3.5rem);
+      line-height: 1.15;
+      margin: 18px 0;
+      max-width: 750px;
+    }
+
+    .hero p {
+      max-width: 620px;
+      color: #e5ece9;
+      margin-bottom: 28px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 12px 22px;
+      border-radius: 6px;
+      background: #e2bd4c;
+      color: #172b3a;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 55px 8%;
+    }
+
+    .section-title {
+      font-size: 1.8rem;
+      margin-bottom: 12px;
+    }
+
+    .intro {
+      max-width: 650px;
+      color: #586771;
+      margin-bottom: 28px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      border: 1px solid #e0e6e2;
+      box-shadow: 0 5px 18px rgba(0, 0, 0, 0.04);
+    }
+
+    .card h3 {
+      color: #174b35;
+      margin-bottom: 10px;
+    }
+
+    .membership {
+      background: #e9f0eb;
+    }
+
+    .price {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #174b35;
+      margin: 12px 0;
+    }
+
+    footer {
+      background: #102b22;
+      color: white;
+      padding: 25px 8%;
+      text-align: center;
+    }
+
+    footer p {
+      color: #d5e0d9;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">CLUB <span>MANAGEMENT</span></div>
+    <p>Institut National des Sciences de Gestion</p>
+
+    <nav>
+      <a href="#accueil">Accueil</a>
+      <a href="#club">Le club</a>
+      <a href="#activites">Activités</a>
+      <a href="#adhesion">Adhésion</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="accueil">
+      <div class="label">ANNÉE ACADÉMIQUE 2026–2027</div>
+      <h1>Ensemble, développons notre potentiel.</h1>
+      <p>
+        Bienvenue sur le site du CLUB MANAGEMENT de l'INSG :
+        un espace dédié aux initiatives étudiantes, au leadership,
+        aux projets et au développement des compétences.
+      </p>
+      <a class="button" href="#adhesion">Découvrir l'adhésion</a>
+    </section>
+
+    <section id="club">
+      <h2 class="section-title">Un club, des ambitions.</h2>
+      <p class="intro">
+        Le CLUB MANAGEMENT encourage les étudiants à apprendre,
+        collaborer et concrétiser des projets à travers des activités
+        enrichissantes et des initiatives collectives.
+      </p>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Leadership</h3>
+          <p>Développer l'esprit d'initiative et le sens des responsabilités.</p>
+        </article>
+
+        <article class="card">
+          <h3>Projets</h3>
+          <p>Transformer les idées des étudiants en réalisations concrètes.</p>
+        </article>
+
+        <article class="card">
+          <h3>Réseau</h3>
+          <p>Favoriser les rencontres, l'entraide et le partage d'expériences.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="activites">
+      <h2 class="section-title">Nos activités</h2>
+      <p class="intro">
+        Retrouvez prochainement les conférences, ateliers, rencontres
+        et projets prévus pour l'année académique 2026–2027.
+      </p>
+    </section>
+
+    <section class="membership" id="adhesion">
+      <h2 class="section-title">Rejoindre le club</h2>
+      <p>La cotisation d'adhésion est fixée à :</p>
+      <p class="price">2 000 FCFA</p>
+      <p>
+        Une contribution hebdomadaire de 500 FCFA est également prévue.
+        Les modalités d'adhésion et de vérification du paiement seront
+        précisées lors de la mise en place de l'espace membre.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026–2027 CLUB MANAGEMENT — INSG</p>
+    <p>Leadership · Engagement · Excellence</p>
+  </footer>
+</body>
+</html>
